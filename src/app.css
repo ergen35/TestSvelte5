@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.default-input {
+    @apply border border-gray-300 rounded-md py-2.5 px-2 w-full outline-yellow-600 ring-0 transition-all delay-100 selection:text-black selection:bg-yellow-400;
+}
+
+.button-default {
+    
+}
